@@ -1,4 +1,4 @@
 # Battlebot
-## integrantes
-Joaquin Flores
-Gonzalo Hernandez
+## Integrantes
+- Joaquin Flores
+- Gonzalo Hernandez
