@@ -1,4 +1,4 @@
-char nombre[10] = "Buldrini";
+char nombre[10] = "Sierrini";
 char password[10] = "1234";
 char baud = '4';
 
