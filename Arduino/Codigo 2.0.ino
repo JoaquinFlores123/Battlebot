@@ -2,6 +2,8 @@ char nombre[10] = "Buldrini";
 char password[10] = "1234";
 char baud = '4';
 char entrada;
+%4,5,6,7 Motores DC Ruedas%
+%8,9 Motor Sierra%
 
 void motores(int l);
 
@@ -11,9 +13,15 @@ void setup() {
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
   pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
 }
 
 void loop() {
+  
+  digitalWrite(8, HIGH);
+  digitalWrite(9, LOW);
+  
   if(Serial.available()>=1){
     entrada = Serial.read();
     motores(entrada);
