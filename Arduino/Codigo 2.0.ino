@@ -2,8 +2,8 @@ char nombre[10] = "Buldrini";
 char password[10] = "1234";
 char baud = '4';
 char entrada;
-%4,5,6,7 Motores DC Ruedas%
-%8,9 Motor Sierra%
+//4,5,6,7 Motores DC Ruedas
+//8,9 Motor Sierra
 
 void motores(int l);
 
