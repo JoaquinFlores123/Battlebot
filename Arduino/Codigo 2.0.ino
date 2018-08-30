@@ -41,25 +41,25 @@ void motores(int l){
     digitalWrite(5, LOW);
     digitalWrite(4, HIGH);
   }
-  else if (l=='RF'){
+  else if (l=='C'){
     digitalWrite(7, LOW);
     digitalWrite(6, LOW);
     digitalWrite(5, HIGH);
     digitalWrite(4, LOW);
   }
-  else if (l=='LF'){
+  else if (l=='A'){
     digitalWrite(7, HIGH);
     digitalWrite(6, LOW);
     digitalWrite(5, LOW);
     digitalWrite(4, LOW);
   }
-  else if (l=='RB'){
+  else if (l=='E'){
     digitalWrite(7, LOW);
     digitalWrite(6, LOW);
     digitalWrite(5, LOW);
     digitalWrite(4, HIGH);
   }
-  else if (l=='LB'){
+  else if (l=='D'){
     digitalWrite(7, LOW);
     digitalWrite(6, HIGH);
     digitalWrite(5, LOW);
