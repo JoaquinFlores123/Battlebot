@@ -18,10 +18,6 @@ void setup() {
 }
 
 void loop() {
-  
-  digitalWrite(8, HIGH);
-  digitalWrite(9, LOW);
-  
   if(Serial.available()>=1){
     entrada = Serial.read();
     motores(entrada);
@@ -71,4 +67,15 @@ void motores(int l){
     digitalWrite(5, LOW);
     digitalWrite(4, LOW);
   }
+  else if (l=='X'){
+    digitalWrite(8, HIGH);
+    digitalWrite(9,LOW);
+  }
+  else if (l=='Z'){
+    digitalWrite(8, LOW);
+    digitalWrite(9,HIGH);
+  }
+  else if (l=='Y'){
+    digitalWrite(8, LOW);
+    digitalWrite(9,LOW);
 }
